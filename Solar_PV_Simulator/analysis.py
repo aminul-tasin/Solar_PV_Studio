@@ -30,4 +30,4 @@ def energy_wh(df, power_col):
     if len(df)<2: return 0.0
     t=pd.to_datetime(df["timestamp"])
     hours=(t.astype("int64").to_numpy()/3.6e12)
-    return float(np.trapz(df[power_col].to_numpy(dtype=float),hours))
+    return float(np.trapezoid(df[power_col].to_numpy(dtype=float),hours))
