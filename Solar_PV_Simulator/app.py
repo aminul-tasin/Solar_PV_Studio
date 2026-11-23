@@ -43,7 +43,7 @@ pages=[
  st.Page("pages/3_Weather_Lab.py",title="Weather Lab",icon="☁️"),
  st.Page("pages/4_MPPT_Lab.py",title="MPPT Lab",icon="🎯"),
  st.Page("pages/5_Load_System.py",title="Load System",icon="⚡"),
- st.Page("pages/6_Numerical_Lab.py",title="Numerical Lab",icon="∑"),
- st.Page("pages/7_Comparison.py",title="Comparison",icon="⇄"),
+ st.Page("pages/6_Numerical_Lab.py",title="Numerical Lab",icon="🧮"),
+ st.Page("pages/7_Comparison.py",title="Comparison",icon="🔄"),
  st.Page("pages/8_Reports.py",title="Reports & Data",icon="📄")]
 st.navigation(pages,position="sidebar").run()
